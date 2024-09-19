@@ -1,0 +1,44 @@
+# Ignore virtual environment directories
+env/
+venv/
+.venv/
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore large data files
+*.csv
+*.tsv
+*.data
+*.dat
+*.gz
+*.zip
+*.tar.gz
+*.h5
+*.pkl
+*.sav
+
+# Ignore large models or serialized files
+*.model
+*.joblib
+*.hdf5
+*.ckpt
+*.pt
+*.onnx
+
+# Ignore logs
+*.log
+
+# Ignore system files
+.DS_Store
+*.bak
+*.swp
+*.out
+
+# Ignore node_modules directory
+node_modules/
